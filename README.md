@@ -16,7 +16,7 @@ It is done as teamwork by Khloud Alnufaie, Raghad Albosais and Weaam Alghaith.
 
 ### Project overview
 
-In light of our accelerating world and the huge amount of data transmitted over the internet specifically in social media, an individual sees dozen or even hundreds of images and types of media every day. Deepfake is a newly emerged issue in our modern days which is media of a person in which their face or body has been digitally altered so that they appear to be someone else, typically used maliciously or to spread false information. In this project, we aim to enhance deepfake videos detection method based on Convolutional Neural Networks (CNNs) by using Jaya optimization algorithm. 
+In light of our accelerating world and the huge amount of data transmitted over the internet specifically in social media, an individual sees dozen or even hundreds of images and types of media every day. Deepfake is a newly emerged issue in our modern days which is media of a person in which their face or body has been digitally altered so that they appear to be someone else, typically used maliciously or to spread false information. In this project, we aim to enhance deepfake videos detection method based some preprocessing for images. Moreever find appropriate feature extractors and classifier for detection.
 
 ---
 
@@ -32,7 +32,7 @@ We plan to detect fake videos by using Celeb-DF (v2) [2](https://arxiv.org/pdf/1
 
 ![Proposed method](https://raw.githubusercontent.com/KhloudAlnufaie/DeepFake_Video_Classification/main/figures/Model.jpg)
 
-The overall model architecture that follows the step of implementation is illustrated in figure above. We describing and explain our approach to tackling the CNN model by following the approach applied in this paper “Novel Convolutional Neural Networks based Jaya algorithm Approach for Accurate Deepfake Video Detection”[1](https://journals.mesopotamian.press/index.php/CyberSecurity/article/view/58). We used their proposed method regarding the hyperparameter tuning of CNN using Jaya optimization algorithm. You can find more detiles about each step i the report.
+The implementation for this project will be split into the following sections: dataset preparation; dataset pre-processing; Feature extractor and deepfake classifier model. The overall model architecture that follows the implementation is illustrated in Figure below. We describe and explain our approach to designing our classifier we conduct some pre-processing such as Gradient filters–Sobel and Laplacian filter. Furthermore, we compare the Local Binary Pattern (LBP) feature extractor with VGG16 the Convolutional Neural Network extractor. In the last, we use Support Vector Machine (SVM) as a classifier.
 
 ---
 
