@@ -1,4 +1,4 @@
-# Deepfake Video Detection
+# Deepfake Video Classification with Image enhancement and feature extraction techniques
 
 ---
 This is a college project required for Digital image processing course (CS467) .<br>
